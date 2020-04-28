@@ -6,7 +6,7 @@ services:
     build:
       context: .
       args:
-        - VERDACCIO_TAG=4.0
+        - VERDACCIO_TAG=4.4
     ports:
       - 4873:4873
     depends_on:

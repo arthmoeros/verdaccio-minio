@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.com/barolab/verdaccio-minio.svg?branch=master)](https://travis-ci.com/barolab/verdaccio-minio)
 ![npm](https://img.shields.io/npm/v/verdaccio-minio)
 
-A verdaccio plugin for storing data in [Minio](https://min.io/).
+A [verdaccio](https://verdaccio.org) plugin for storing data in [Minio](https://min.io/).
 
 ## Usage
 
@@ -90,7 +90,7 @@ services:
       VERDACCIO_PORT: 4873
 
   minio:
-    image: minio/minio:RELEASE.2019-08-21T19-40-07Z
+    image: minio/minio:RELEASE.2020-02-07T23-28-16Z
     command: server /data
     volumes:
       - minio:/data
